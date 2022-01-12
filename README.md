@@ -2,6 +2,8 @@
 ## About InputStick
 InputStick is an Android and iOS compatible USB receiver. It allows to use your smartphone as a wireless keyboard, mouse, multimedia and game controller. 
 
+[![iOS API demo video](http://img.youtube.com/vi/GxqTSWtliRA/0.jpg)](http://www.youtube.com/watch?v=GxqTSWtliRA)
+
 [InputStick website](http://inputstick.com)
 
 
@@ -19,5 +21,6 @@ USB host sees InputStick as a generic HID device, it knows nothing about Bluetoo
 This repository will allow to send command from a linux computer to your inputstick
 
 Usage example:
+
 `echo "Typed from my desktop" | inputstick 12:34:56:78:9A:BC`
 
